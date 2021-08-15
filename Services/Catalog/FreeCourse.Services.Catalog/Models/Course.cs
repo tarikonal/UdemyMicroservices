@@ -26,7 +26,7 @@ namespace FreeCourse.Services.Catalog.Models
         public Feature Feature { get; set; }
 
         [BsonRepresentation(BsonType.ObjectId)]
-        public int CategoryId { get; set; }
+        public string CategoryId { get; set; }
 
         [BsonIgnore]
         public Category Category { get; set; }

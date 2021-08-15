@@ -20,7 +20,7 @@ namespace FreeCourse.Shared.Dtos
             return new Response<T> { Data = data, StatusCode = statusCode, IsSuccessfull = true };
         }
 
-        public static Response<T> Succes(int statusCode)
+        public static Response<T> Success(int statusCode)
         {
             return new Response<T> { Data = default(T), StatusCode = statusCode, IsSuccessfull = true };
         }
