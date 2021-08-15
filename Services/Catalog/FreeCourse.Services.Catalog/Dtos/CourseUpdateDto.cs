@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace FreeCourse.Services.Catalog.Dtos
 {
-    internal class CourseUpdateDto
+    public class CourseUpdateDto
     {
         public string Id { get; set; }
         public string Name { get; set; }
@@ -20,6 +20,6 @@ namespace FreeCourse.Services.Catalog.Dtos
 
         public FeatureDto Feature { get; set; }
 
-        public int CategoryId { get; set; }
+        public string CategoryId { get; set; }
     }
 }
